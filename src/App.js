@@ -19,11 +19,7 @@ const App = () => {
 
   return (
     <Wrapper>
-      <Picker
-        list={currencyList}
-        onChange={handleChange}
-        initiallySelected={['SEK']}
-      />
+      <Picker list={currencyList} onChange={handleChange} />
     </Wrapper>
   );
 };
