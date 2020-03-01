@@ -5,11 +5,11 @@ import Selected from './Selected';
 
 import * as S from './styled';
 
-export default ({ initiallySelected = [], list, onChange = () => {} }) => {
+export default ({ initiallySelected = [], list, onChange }) => {
   const [selected, setSelected] = useState(initiallySelected);
 
   useEffect(() => {
-    onChange(selected);
+    onChange && onChange(selected);
   }, [onChange, selected]);
 
   const handleSelect = label => {
