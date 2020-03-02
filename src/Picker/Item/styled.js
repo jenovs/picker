@@ -29,7 +29,7 @@ export const Label = styled.label`
     align-items: center;
     border: 1px solid ${colors.border};
     border-radius: 4px;
-    color: red;
+    color: ${colors.fontCheck};
     display: flex;
     font-size: 16px;
     height: 16px;

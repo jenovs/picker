@@ -6,3 +6,4 @@ export const deleteBackground = '#333';
 export const deleteBackgroundHover = '#fff';
 export const font = '#104371';
 export const fontDefault = '#000';
+export const fontCheck = '#ff0200';

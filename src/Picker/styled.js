@@ -2,8 +2,6 @@ import styled from 'styled-components';
 
 import * as colors from '../colors';
 
-export const List = styled.di;
-
 export const Container = styled.div`
   display: flex;
   flex-wrap: wrap;
